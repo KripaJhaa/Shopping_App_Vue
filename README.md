@@ -46,3 +46,13 @@ Used Localhost: 8080(port)
 
 '''
 Run: Node server.js to run the app
+
+##Screen-sort##
+ ![login](./ShoppingPrj_pic/loginPage.png)
+  ![add Product](./ShoppingPrj_pic/signUp_Vendor.png)
+ ![project Structure](./ShoppingPrj_pic/project_Structure.png)
+ ![cart Page](./ShoppingPrj_pic/cart_Page.png)
+ ![Product List](./ShoppingPrj_pic/productList.png)
+ ![add Product](./ShoppingPrj_pic/addProduct.png)
+
+
