@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="../script/vue.js"></script>
+    <script src="../script/axios.js"></script>
+    <script src="../script/axios.js"></script>
+    <title>Cart</title>
+
+</head>
+
+<body>
+    <div id="nav-cart-component"></div>
+
+    <div id="cartPage" class="container">
+        <h3>My Cart Page</h3>
+
+        <section class="container m-5" style="overflow: auto; height: 30em;">
+            <div v-if="cartProducts.length > 0">
+                <ul class="list-group">
+
+                    <li class="list-group-item" v-for="cartProduct in cartProducts">
+                        <div class="row">
+                            <div class="col left">
+
+                                <div class="detail">
+                                    <div class="name">
+                                        <a href="#">{{ cartProduct.product.name }}</a>
+                                    </div>
+
+                                    <div class="price"> {{ cartProduct.product.price }} &#x20B9;</div>
+                                </div>
+                            </div>
+
+                            <div class="col right">
+                                <div style="float: right;">
+                                    <button class="btn btn-info btn-sm" @click="plus(cartProduct.productId)">+</button>
+                                    <label>{{cartProduct.quantity}}</label>
+                                    <button class="btn btn-info btn-sm" @click="minus(cartProduct.productId)">-</button>
+                                    <button class="btn btn-danger btn-sm" @click="removeItem(cartProduct.productId)">X</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div v-else style="text-align: center;">
+                <h3>There are no products in your cart.</h3>
+                <button style="font-size: 1.3rem; padding: 10px 30px;">Shopping now</button>
+            </div>
+        </section>
+        <hr>
+
+        <div class="container" v-if="cartProducts.length > 0">
+            <div style="float: right;">
+                <h6>Total Amount: </h6>
+                <span>{{ calculateTotal() }} &#x20B9;</span>
+            </div>
+
+        </div>
+
+        <div>
+            <a href="/">Add More Product to cart</a>
+        </div>
+
+
+    </div>
+    <script src="../script/mycartvue.js"></script>
+    <script src="../script/navvue.js"></script>
+</body>
+
+
+
+</html>

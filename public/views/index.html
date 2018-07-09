@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="../script/vue.js"></script>
+    <script src="../script/axios.js"></script>
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <div id="nav-cart-component"></div>
+
+    <div id="nav" class="container-fluid">
+    </div>
+
+    <div id="app" class="container" style="margin-top: 65px;">
+        <div class="row" id="product-list">
+
+            <div v-if="products==''">
+                <h3>No, Product Yet Added Go to Add Product Now</h3>
+            </div>
+            <div v-for=" product in products">
+
+                <div class="card m-2" style="width: 15rem;height: 30rem;">
+                    <img class="card-img-top" src="./contents/image/Dummy.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{product.name}}
+                            <span>Price: {{product.price}}</span>
+                        </h5>
+                        <p  class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary" @click="addToCart(product.id)"> Add </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../script/navvue.js"></script>
+    <script src="../script/indexvue.js"></script>
+
+</body>
+
+</html>
