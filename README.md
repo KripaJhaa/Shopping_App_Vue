@@ -1,6 +1,6 @@
 #### Shopping Website in node js
 
-<!-- # shopping Website Using Vue js (front-End), Sequelize(Orm), Sqlite3 (Database)
+# shopping Website Using Vue js (front-End), Sequelize(Orm), Sqlite3 (Database)
 
 # Tables - 
 
@@ -45,7 +45,7 @@ Vue Js for Front-end and Axios for Http Calls
 Used Localhost: 8080(port)
 
 '''
-Run: Node server.js to run the app -->
+Run: Node server.js to run the app
 
 ##  Screen-sort
 
