@@ -51,23 +51,23 @@ Run: Node server.js to run the app
 
 
 ### ProjectFile structure
-<img src="./ShoppingPrj_pic/project_Structure.png" width="200px">
+<img src="./screenshots/project_Structure.png" width="200px">
 
 ### Login page
-<img src="./ShoppingPrj_pic/loginPage.png" width="300px">
+<img src="./screenshots/loginPage.png" width="300px">
 
 ### Signup Page
-<img src="./ShoppingPrj_pic/signUp_Vendor.png" width="300px">
+<img src="./screenshots/signUp_Vendor.png" width="300px">
 
 
 ### Cart Page
-<img src="./ShoppingPrj_pic/cart_Page.png" width="500px">
+<img src="./screenshots/cart_Page.png" width="500px">
 
 ### Product List Page
-<img src="./ShoppingPrj_pic/productList.png" width="300px">
+<img src="./screenshots/productList.png" width="300px">
 
 ### AddProduct Page
-<img src="./ShoppingPrj_pic/addProduct.png" width="300px">
+<img src="./screenshots/addProduct.png" width="300px">
 
 
 
