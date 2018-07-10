@@ -69,7 +69,7 @@ Run: Node server.js to run the app -->
 ### AddProduct Page
 <img src="./screenshots/addproduct.png" width="300px">
 
-
+![Alt text](./screenshots/addproduct.png?raw=true "Optional Title")
 
  
 
