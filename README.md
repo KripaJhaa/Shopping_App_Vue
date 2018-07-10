@@ -51,28 +51,23 @@ Run: Node server.js to run the app -->
 
 
 ### ProjectFile structure
-<img src="./screenshots/project_structure.png" width="200px">
+<img src="https://s8.postimg.cc/ig3r872d1/project_structure.png" width="200px">
 
 ### Login page
-<img src="./screenshots/loginpage.png" width="300px">
+<img src="https://s8.postimg.cc/9xub3uget/loginpage.png" width="300px">
 
 ### Signup Page
-<img src="./screenshots/signup_vendor.png" width="300px">
+<img src="https://s8.postimg.cc/c2eo4ycwl/signup_vendor.png" width="300px">
 
 
 ### Cart Page
-<img src="./screenshots/cart_page.png" width="500px">
+<img src="https://s8.postimg.cc/uhz52c3vp/cart_page.png" width="500px">
 
 ### Product List Page
-<img src="./screenshots/productlist.png" width="300px">
+<img src="https://s8.postimg.cc/bcvvslk2t/productlist.png" width="300px">
 
 ### AddProduct Page
-<img src="./screenshots/addproduct.png" width="300px">
+<img src="https://s8.postimg.cc/8isqf47lx/addproduct.png" width="300px">
 
 
 
-![ScreenShot](ttps://s8.postimg.cc/bcvvslk2t/productlist.png)
- 
-
-### good day
-<img src="https://s8.postimg.cc/uhz52c3vp/cart_page.png" width="300px">
